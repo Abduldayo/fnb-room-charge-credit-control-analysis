@@ -18,17 +18,17 @@ The data used in this project is fully simulated to protect guest and company in
 
 ## Tools
 
-MySQL
-Power BI
+- MySQL
+- Power BI
 
 ## Key Findings
 
-Total F&B charges: £368,288
-At-risk F&B charges: £246,184
-Actual unpaid amount: £39,231.52
-Actual disputed amount: £17,589.34
-At-risk adverse checkout rate: 30.63%
-Not-at-risk adverse checkout rate: 13.22%
+- Total F&B charges: £368,288
+- At-risk F&B charges: £246,184
+- Actual unpaid amount: £39,231.52
+- Actual disputed amount: £17,589.34
+- At-risk adverse checkout rate: 30.63%
+- Not-at-risk adverse checkout rate: 13.22%
 
 ## Recommendation
 
