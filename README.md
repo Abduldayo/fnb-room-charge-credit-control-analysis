@@ -6,9 +6,9 @@ SQL and Power BI analysis of hotel F&B room charges, guest credit and checkout o
 
 This project was inspired by an issue I noticed in my current hotel role.
 
-F&B staff use Bizzon to post charges to guest rooms, while Front Desk uses Opera to check guest credit. Before, F&B had to walk to Front Desk to confirm if a guest had enough credit before posting a room charge.
+F&B staff use Bizzon to post charges to guest rooms, while Front Desk uses Opera to check guest credit. Before the No Post control was introduced, F&B staff had to walk to Front Desk to confirm if a guest had enough credit before posting a room charge.
 
-During busy periods, this check could sometimes be missed, especially with new staff or staff turnover.
+During busy periods, this check was sometimes missed, especially with new staff or staff turnover. As a result, room charges were posted to guests who had no credit or insufficient available credit, which led to unpaid or disputed balances at checkout.
 
 ## Project Objective
 
@@ -34,7 +34,7 @@ The data used in this project is fully simulated to protect guest and company in
 
 I recommended integrating the No Post control between Front Desk Opera and F&B Bizzon so that when F&B enters a room number, the guest's credit can be checked automatically.
 
-If the guest has no credit or insufficient available credit, the room charge can be blocked instead of relying on staff to check manually.
+If a guest has no credit or insufficient available credit, the room charge is blocked instead of relying on staff to check manually
 
 ## Business Impact
 
